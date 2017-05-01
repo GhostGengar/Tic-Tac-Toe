@@ -12,6 +12,9 @@
 		F81334861D66E36300E0B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81334841D66E36300E0B1DF /* Main.storyboard */; };
 		F81334881D66E36300E0B1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81334871D66E36300E0B1DF /* Assets.xcassets */; };
 		F813348B1D66E36300E0B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81334891D66E36300E0B1DF /* LaunchScreen.storyboard */; };
+		F81334951D66E37B00E0B1DF /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = F81334921D66E37B00E0B1DF /* board.png */; };
+		F81334961D66E37B00E0B1DF /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = F81334931D66E37B00E0B1DF /* cross.png */; };
+		F81334971D66E37B00E0B1DF /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = F81334941D66E37B00E0B1DF /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F81334871D66E36300E0B1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F813348A1D66E36300E0B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F813348C1D66E36300E0B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81334921D66E37B00E0B1DF /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		F81334931D66E37B00E0B1DF /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		F81334941D66E37B00E0B1DF /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				F81334801D66E36300E0B1DF /* AppDelegate.swift */,
 				F81334821D66E36300E0B1DF /* ViewController.swift */,
 				F81334841D66E36300E0B1DF /* Main.storyboard */,
+				F81334921D66E37B00E0B1DF /* board.png */,
+				F81334931D66E37B00E0B1DF /* cross.png */,
+				F81334941D66E37B00E0B1DF /* nought.png */,
 				F81334871D66E36300E0B1DF /* Assets.xcassets */,
 				F81334891D66E36300E0B1DF /* LaunchScreen.storyboard */,
 				F813348C1D66E36300E0B1DF /* Info.plist */,
@@ -97,6 +106,7 @@
 					F813347C1D66E36300E0B1DF = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = B6T7XNZ4XR;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -123,6 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81334961D66E37B00E0B1DF /* cross.png in Resources */,
+				F81334951D66E37B00E0B1DF /* board.png in Resources */,
+				F81334971D66E37B00E0B1DF /* nought.png in Resources */,
 				F813348B1D66E36300E0B1DF /* LaunchScreen.storyboard in Resources */,
 				F81334881D66E36300E0B1DF /* Assets.xcassets in Resources */,
 				F81334861D66E36300E0B1DF /* Main.storyboard in Resources */,
@@ -256,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bluelamp.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -267,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bluelamp.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -289,6 +304,7 @@
 				F81334911D66E36300E0B1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
